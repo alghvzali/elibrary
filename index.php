@@ -3,7 +3,7 @@
     session_start();
 
     include "function.php";
-    $koneksi = new mysqli ("sql212.byetcluster.com", "b7_22164534", "ALarmy12", "b7_22164534_elibrary" );
+    $koneksi = new mysqli ("", "", "", "" );
 
 if($_SESSION['admin'] || $_SESSION['user']){
 
